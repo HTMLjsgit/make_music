@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUSIC</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<button id="change_button" onclick="change('synth')">Synth</button>
+	<button id="change_button2" onclick="change('synth2')">Synth</button>
+
+
+	<div class="contents-box1 contents">
+		<br><br>
+		<button id="piano_1_C1" class="pianos" data-piano="C1">ド(C1)</button>
+		<button id="piano_1_C#1" class="pianos" data-piano="C#1">ド#</button>
+		<button id="piano_2_D1" class="pianos" data-piano="D1">レ</button>
+		<button id="piano_2_D#1" class="pianos" data-piano="D#1">レ#</button>
+		<button id="piano_3_E1" class="pianos" data-piano="E1">ミ</button>
+		<button id="piano_4_F1" class="pianos" data-piano="F1">ファ</button>
+		<button id="piano_4_F#1" class="pianos" data-piano="F#1">ファ#</button>
+		<button id="piano_5_G1" class="pianos" data-piano="G1">ソ</button>
+		<button id="piano_5_G#1" class="pianos" data-piano="G#1">ソ#</button>
+		<button id="piano_6_A1" class="pianos" data-piano="A1">ラ</button>
+		<button id="piano_6_A#1" class="pianos" data-piano="A#1">ラ#</button>
+		<button id="piano_7_B1" class="pianos" data-piano="B1">シ</button>
+	</div>
+
+
+	<div class="contents-box2 contents">
+		<br><br>
+
+		<button id="piano_1_C2" class="pianos" data-piano="C2">ド(C2)</button>
+		<button id="piano_1_C#2" class="pianos" data-piano="C#2">ド#</button>
+		<button id="piano_2_D2" class="pianos" data-piano="D2">レ</button>
+		<button id="piano_2_D#2" class="pianos" data-piano="D#2">レ#</button>
+		<button id="piano_3_E2" class="pianos" data-piano="E2">ミ</button>
+		<button id="piano_4_F2" class="pianos" data-piano="F2">ファ</button>
+		<button id="piano_4_F#2" class="pianos" data-piano="F#2">ファ#</button>
+		<button id="piano_5_G2" class="pianos" data-piano="G2">ソ</button>
+		<button id="piano_5_G#2" class="pianos" data-piano="G#2">ソ#</button>
+		<button id="piano_6_A2" class="pianos" data-piano="A2">ラ</button>
+		<button id="piano_6_A#2" class="pianos" data-piano="A#2">ラ#</button>
+		<button id="piano_7_B2" class="pianos" data-piano="B2">シ</button>
+	</div>
+
+	<div class="contents-box3 contents">
+		<br><br>
+
+		<button id="piano_1_C3" class="pianos" data-piano="C3">ド(C3)</button>
+		<button id="piano_1_C#3" class="pianos" data-piano="C#3">ド#</button>
+		<button id="piano_2_D3" class="pianos" data-piano="D3">レ</button>
+		<button id="piano_2_D#3" class="pianos" data-piano="D#3">レ#</button>
+		<button id="piano_3_E3" class="pianos" data-piano="E3">ミ</button>
+		<button id="piano_4_F3" class="pianos" data-piano="F3">ファ</button>
+		<button id="piano_4_F#3" class="pianos" data-piano="F#3">ファ#</button>
+		<button id="piano_5_G3" class="pianos" data-piano="G3">ソ</button>
+		<button id="piano_5_G#3" class="pianos" data-piano="G#3">ソ#</button>
+		<button id="piano_6_A3" class="pianos" data-piano="A3">ラ</button>
+		<button id="piano_6_A#3" class="pianos" data-piano="A#3">ラ#</button>
+		<button id="piano_7_B3" class="pianos" data-piano="B3">シ</button>
+	</div>
+	<div class="contents-box4 contents">
+		<br><br>
+
+		<button id="piano_1_C4" class="pianos" data-piano="C4">ド(C4)</button>
+		<button id="piano_1_C#4" class="pianos" data-piano="C#4">ド#</button>
+		<button id="piano_2_D4" class="pianos" data-piano="D4">レ</button>
+		<button id="piano_2_D#4" class="pianos" data-piano="D#4">レ#</button>
+		<button id="piano_3_E4" class="pianos" data-piano="E4">ミ</button>
+		<button id="piano_4_F4" class="pianos" data-piano="F4">ファ</button>
+		<button id="piano_4_F#4" class="pianos" data-piano="F#4">ファ#</button>
+		<button id="piano_5_G4" class="pianos" data-piano="G4">ソ</button>
+		<button id="piano_5_G#4" class="pianos" data-piano="G#4">ソ#</button>
+		<button id="piano_6_A4" class="pianos" data-piano="A4">ラ</button>
+		<button id="piano_6_A#4" class="pianos" data-piano="A#4">ラ#</button>
+		<button id="piano_7_B4" class="pianos" data-piano="B4">シ</button>
+	</div>
+	<div class="contents-box5 contents">
+
+		<br><br>
+
+		<button id="piano_1_C5" class="pianos" data-piano="C5">ド(C5)</button>
+		<button id="piano_1_C#5" class="pianos" data-piano="C#5">ド#</button>
+		<button id="piano_2_D5" class="pianos" data-piano="D5">レ</button>
+		<button id="piano_2_D#5" class="pianos" data-piano="D#5">レ#</button>
+		<button id="piano_3_E5" class="pianos" data-piano="E5">ミ</button>
+		<button id="piano_4_F5" class="pianos" data-piano="F5">ファ</button>
+		<button id="piano_4_F#5" class="pianos" data-piano="F#5">ファ#</button>
+		<button id="piano_5_G5" class="pianos" data-piano="G5">ソ</button>
+		<button id="piano_5_G#5" class="pianos" data-piano="G#5">ソ</button>
+		<button id="piano_6_A5" class="pianos" data-piano="A5">ラ</button>
+		<button id="piano_6_A#5" class="pianos" data-piano="A#5">ラ#</button>
+		<button id="piano_7_B5" class="pianos" data-piano="B5">シ</button>
+	</div>
+
+	<select id="select_box">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
+	<script src="main.js"></script>
+</body>
+</html>
